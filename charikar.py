@@ -37,7 +37,7 @@ def charikarHeap(G):
         iter += 1
 
     S = copy.deepcopy(G)
-    for i in xrange(best_iter):
+    for i in range(best_iter):
         S.remove_node(order[i])
     return S, best_avg
 
@@ -81,7 +81,7 @@ def charikarDicts(G):
         iter += 1
 
     S = copy.deepcopy(G)
-    for i in xrange(best_iter):
+    for i in range(best_iter):
         S.remove_node(order[i])
     return S, best_avg
 
