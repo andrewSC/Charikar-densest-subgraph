@@ -83,5 +83,5 @@ def charikarDicts(G):
     S = copy.deepcopy(G)
     for i in range(best_iter):
         S.remove_node(order[i])
-    return S, best_avg
+    return S
 
