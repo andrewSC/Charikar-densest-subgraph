@@ -65,7 +65,7 @@ def charikarDicts(G):
             best_iter = iter
 
         min_deg = N
-        for n, neigh in nodes.iteritems():
+        for n, neigh in nodes.items():
             if min_deg > len(neigh):
                 min_deg = len(neigh)
                 min_deg_node = n
